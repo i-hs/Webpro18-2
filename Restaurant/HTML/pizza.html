@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Pizza BoyShe&Na</title>
+  <link rel="stylesheet" type="text/css" href="../CSS/restsStyle.css" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js">
+  </script>
+  <script>
+    $(document).ready(function () {
+$('.outer-menu-item').hover(function () {
+$(this).find('.inner-menu').show();
+}, function () {
+$(this).find('.inner-menu').hide();
+});
+});
+</script>
+</head>
+
+<body>
+  <div id="page-wrapper">
+  <header id="main-header">
+    <hgroup>
+      <h1 class="master-title"><a href="making.html"> Welcome to CAU</a></h1>
+      <h2 class="master-description">CAU NEST</h2>
+    </hgroup>
+  </header>
+  <nav id="main-navigation">
+    <div class="pull-left">
+      <ul class="outer-menu">
+        <li class="outer-menu-item">
+          <span class="menu-title">ABOUT CAU</span>
+          <ul class="inner-menu">
+            <li class="inner-menu-item"> <a href="campusguide.html"> Campus guide</a> </li>
+            <li class="inner-menu-item"> <a href="#"> Academic Calender</a> </li>
+            <li class="inner-menu-item"> <a href="campusmap.html"> Campus Map</a> </li>
+          </ul>
+        </li>
+        <li class="outer-menu-item">
+          <span class="menu-title">Community</span>
+          <ul class="inner-menu">
+            <li class="inner-menu-item"> <a href="#"> Signing up</a> </li>
+            <li class="inner-menu-item"> <a href="#"> Bulletin Board</a> </li>
+            <li class="inner-menu-item"> <a href="#"> Q&A</a> </li>
+          </ul>
+        </li>
+        <li class="outer-menu-item">
+          <span class="menu-title">RESTURANT</span>
+          <ul class="inner-menu">
+            <li class="inner-menu-item"> <a href="#"> RESTURANT</a> </li>
+            <li class="inner-menu-item"> <a href="#"> Korean food</a> </li>
+          </ul>
+        </li>
+        <li class="outer-menu-item">
+          <span class="menu-title">TOUR</span>
+          <ul class="inner-menu">
+            <li class="inner-menu-item"> <a href="#"> 데이터</a> </li>
+            <li class="inner-menu-item"> <a href="#"> 데이터</a> </li>
+            <li class="inner-menu-item"> <a href="#"> 데이터</a> </li>
+          </ul>
+        </li>
+        <li class="outer-menu-item">
+          <span class="menu-title">help</span>
+          <ul class="inner-menu">
+            <li class="inner-menu-item"> <a href="#"> 데이터</a> </li>
+            <li class="inner-menu-item"> <a href="#"> 데이터</a> </li>
+            <li class="inner-menu-item"> <a href="#"> 데이터</a> </li>
+            <li class="inner-menu-item"> <a href="#"> 데이터</a> </li>
+            <li class="inner-menu-item"> <a href="#"> 데이터</a> </li>
+            <li class="inner-menu-item"> <a href="#"> 데이터</a> </li>
+            <li class="inner-menu-item"> <a href="#"> 데이터</a> </li>
+            <li class="inner-menu-item"> <a href="#"> 데이터</a> </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="pull-right">
+      <div class="search-bar">
+        <form>
+          <input type="text" class="input-search" />
+          <input type="submit" class="input-search-submit" value="검색" />
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="thumbnail-wrapper">
+    <div class="thumbnail">
+      <div class="centered">
+        <img src="../IMG/피자보이시나/pizza5.jpg">
+      </div>
+    </div>
+  </div>
+  <div class="thumbnail-wrapper">
+    <div class="thumbnail">
+      <div class="centered">
+        <img src="../IMG/피자보이시나/pizza1.png">
+      </div>
+    </div>
+  </div>
+  <div class="thumbnail-wrapper">
+    <div class="thumbnail">
+      <div class="centered">
+        <img src="../IMG/피자보이시나/pizza2.png">
+      </div>
+    </div>
+  </div>
+  <div class="thumbnail-wrapper">
+    <div class="thumbnail">
+      <div class="centered">
+        <img src="../IMG/피자보이시나/pizza3.jpg">
+      </div>
+    </div>
+  </div>
+  <div class="thumbnail-wrapper">
+    <div class="thumbnail">
+      <div class="centered">
+        <img src="../IMG/피자보이시나/pizza4.jpg">
+      </div>
+    </div>
+  </div>
+  <div>
+    <p>&nbsp;</p>
+    <h1>Pizza BoyShe&Na</h1>
+  </div>
+  <div>
+    <table>
+      <br />
+      <hr / >
+      <br />
+      <tr>
+        <td class="title">Address</td>
+        <td>서울 동작구 흑석로9길 6</td>
+      </tr>
+      <tr>
+        <td class="title">Phone No.</td>
+        <td>02-815-6564</td>
+      </tr>
+      <tr>
+        <td class="title">Type of Food</td>
+        <td>Pizza</td>
+      </tr>
+      <tr>
+        <td class="title">Price</td>
+        <td>about 10,000\</td>
+      </tr>
+      <tr>
+        <td class="title">Opening Hours</td>
+        <td>11:00 - 22:30</td>
+      </tr>
+    </table>
+  </div>
+  <br />
+  <!-- * Daum 지도 - 지도퍼가기 -->
+<!-- 1. 지도 노드 -->
+<div id="daumRoughmapContainer1543134469544" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+
+<!--
+	2. 설치 스크립트
+	* 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
+-->
+<script charset="UTF-8" class="daum_roughmap_loader_script" src="http://dmaps.daum.net/map_js_init/roughmapLoader.js"></script>
+
+<!-- 3. 실행 스크립트 -->
+<script charset="UTF-8">
+	new daum.roughmap.Lander({
+		"timestamp" : "1543134469544",
+		"key" : "rzyk",
+		"mapWidth" : "600",
+		"mapHeight" : "300"
+	}).render();
+</script>
+</body>
+
+</html>
