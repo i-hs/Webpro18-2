@@ -7,7 +7,7 @@ The goal is creating a website that introduce and give information about ChungAn
 My team use HTML, CSS, MySQL, JavaScript
 ```
 
-My part was making an bulletin board and web hosting.
-I followed Youtube https://youtu.be/wEIBDHfoMBg.
-I registered the website in cafe24 and consolidated all of my team's files.
+* My part was making an bulletin board and web hosting with SQL and JavaScript.
+* I followed Youtube https://youtu.be/wEIBDHfoMBg.
+* I registered the website in __cafe24__ and consolidated all of my team's files.
 
