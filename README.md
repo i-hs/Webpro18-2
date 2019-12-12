@@ -3,7 +3,8 @@ NEST - Navigator for Exchange STudent
 ---
 ```
 This project was done in 2018 wep programming class.
-The goal is creating a website that introduce and give information about ChungAng University in English version.
+The goal is creating a website that introduce and give information about ChungAng University 
+in English version.
 My team use HTML, CSS, MySQL, JavaScript
 ```
 
